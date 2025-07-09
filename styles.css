@@ -1,0 +1,78 @@
+body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  background: #fff;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the edges of the post header */
+  align-items: center;
+  padding: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+}
+
+.user-info {
+  margin-left: 8px;
+  line-height: 1.2;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.right i {
+  font-size: 20px;
+}
+
+.post-image img {
+  width: 100%;
+  display: block; /* Ensures no extra space below the image */
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between; /* Aligns icons to the edges of the post */
+  align-items: center; /* Centers icons vertically */
+  padding: 8px 10px;
+}
+
+.licons i,
+.ricon i { /* Styles for icons in the left and right sections */
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.ricon i {
+  margin-right: 0;
+}
+
+.likes,
+.caption {
+  padding: 0 10px;
+  font-size: 14px;
+  margin: 4px 0;
+}
